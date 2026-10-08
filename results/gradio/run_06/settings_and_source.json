@@ -1,0 +1,63 @@
+{
+  "project": "Computer Vision-Based Flood Detection and Water-Level Monitoring System",
+  "team": "Team 20",
+  "result_id": "20261008_201846_5f7845a0",
+  "created_utc": "2026-10-08T20:18:57.720020+00:00",
+  "input_size": {
+    "width": 3888,
+    "height": 2592
+  },
+  "detector": "YOLOv8n / COCO-pretrained / car class only",
+  "classifier": "ResNet-50 / our Task 4 checkpoint",
+  "checkpoint_filename": "resnet50_sturm_best_macro_f1.pth",
+  "checkpoint_sha256": "bfe369dc9b25cce84ff9d2c1500af1fa0376d51946eee1408aacb9b5c96bd076",
+  "class_names": [
+    "Level0",
+    "Level1",
+    "Level2",
+    "Level3",
+    "Level4"
+  ],
+  "settings": {
+    "detector_confidence": 0.3,
+    "detector_iou": 0.45,
+    "detector_imgsz": 640,
+    "classifier_confidence": 0.5,
+    "crop_padding_per_side": 0.2,
+    "classifier_image_size": 224,
+    "normalization_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalization_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "detected_cars": 1,
+  "uncertain_predictions": 1,
+  "processing_seconds": 0.168,
+  "timing_note": "Detection, crop classification and annotation; not a benchmark. First run may be slower.",
+  "package_versions": {
+    "gradio": "6.29.1",
+    "ultralytics": "8.4.162",
+    "torch": "2.11.0+cu130"
+  },
+  "source_credit": {
+    "source_image": "Cars_in_flooded_Novodvorská_street_in_Třebíč,_Třebíč_District.jpg",
+    "author": "Jiří Sedláček",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cars_in_flooded_Novodvorsk%C3%A1_street_in_T%C5%99eb%C3%AD%C4%8D%2C_T%C5%99eb%C3%AD%C4%8D_District.JPG",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Car boxes and labels added; car crops extracted for display."
+  },
+  "limitations": [
+    "Relative categories only; no exact water depth or road-safety judgement.",
+    "Cars can be missed or false boxes produced, especially with strong submergence or occlusion.",
+    "Scene results have no ground-truth accuracy score.",
+    "Uncertain means classifier score below 0.50; it is not a sixth learned class.",
+    "Lower detector confidence or larger input size is exploratory, not verified improvement."
+  ]
+}

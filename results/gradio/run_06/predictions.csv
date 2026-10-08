@@ -1,0 +1,2 @@
+car_id,relative_flood_level,detector_confidence,classifier_confidence,uncertain,x1,y1,x2,y2,crop_x1,crop_y1,crop_x2,crop_y2
+1,Level3,0.391158,0.476041,True,788,1549,2061,2573,533,1344,2316,2592

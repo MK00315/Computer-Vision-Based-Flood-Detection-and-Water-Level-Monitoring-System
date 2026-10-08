@@ -1,0 +1,16 @@
+{
+  "notebook_sha256": "c6cc228e5e9f6755487b52b8f0c7d41fab9a48ba7c0ee101ff93560a7ee2a391",
+  "archive_sha256": "27a0ca8dd60b77eaa93c094e48ef30e76f0e13a344cd845940b8ce188ec8982b",
+  "outer_crc_ok": true,
+  "backup_count": 2,
+  "unique_runs": 10,
+  "unique_images": 4,
+  "total_detection_rows": 13,
+  "uncertain_rows": 2,
+  "no_saved_cell_errors": true,
+  "no_credentials_in_saved_outputs": true,
+  "saved_records_consistent": true,
+  "duplicate_backups_counted_once": true,
+  "scene_accuracy_measured": false,
+  "launch_output_cleared": true
+}

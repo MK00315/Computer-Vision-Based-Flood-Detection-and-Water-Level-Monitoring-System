@@ -1,0 +1,11 @@
+run,run_id,source_image,detector_confidence,detector_imgsz,detections,uncertain_predictions,processing_seconds
+1,20261008_192205_b8ecfbbb,Sunken_cars_on_flooded_street_in_Cedar_Rapids_Iowa.jpg,0.3,640,0,0,2.982
+2,20261008_192300_f4e7ebe8,Sunken_cars_on_flooded_street_in_Cedar_Rapids_Iowa.jpg,0.15,640,0,0,0.043
+3,20261008_192318_3a843ea5,Sunken_cars_on_flooded_street_in_Cedar_Rapids_Iowa.jpg,0.05,640,0,0,0.042
+4,20261008_192354_af9bb111,Sunken_cars_on_flooded_street_in_Cedar_Rapids_Iowa.jpg,0.05,1280,3,0,0.318
+5,20261008_201735_50126b72,Flooded_street_and_vehicles.jpg,0.3,640,4,0,0.353
+6,20261008_201846_5f7845a0,"Cars_in_flooded_Novodvorská_street_in_Třebíč,_Třebíč_District.jpg",0.3,640,1,1,0.168
+7,20261008_201920_f6d29c53,"Cars_in_flooded_Novodvorská_street_in_Třebíč,_Třebíč_District.jpg",0.3,640,1,1,0.103
+8,20261008_202010_4894882f,Cars_driving_through_flood_water_on_the_B4380_near_Atcham_-_geograph.org.uk_-_7390621.jpg,0.3,640,0,0,0.159
+9,20261008_202107_3aa7f6f8,Cars_driving_through_flood_water_on_the_B4380_near_Atcham_-_geograph.org.uk_-_7390621.jpg,0.05,640,1,0,0.191
+10,20261008_202153_faf2408b,Cars_driving_through_flood_water_on_the_B4380_near_Atcham_-_geograph.org.uk_-_7390621.jpg,0.05,1280,3,0,0.311
