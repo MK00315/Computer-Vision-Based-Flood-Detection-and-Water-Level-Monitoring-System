@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "test_crops": 340,
+  "scene_images": 10,
+  "baseline_detections": 24,
+  "exploratory_detections": 40,
+  "interactive_tests_saved": 13,
+  "scope": "File consistency and integration checks; not prediction accuracy."
+}
