@@ -1,0 +1,37 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.superdesign/
+.codex/
+
+# Download datasets/checkpoints separately; do not push personal Drive exports
+*.pth
+*.pt
+*.onnx
+*.zip
+datasets/
+models/
+STURM-FloodDepth/
+flooded_cars/
+task4_outputs/
+task5_outputs/
+task6_outputs/
+task7_outputs/
+gradio_demo_outputs/
+classifier_reproduction_outputs/
+runs/
+tmp/
+private/

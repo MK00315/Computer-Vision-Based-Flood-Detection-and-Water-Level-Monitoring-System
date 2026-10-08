@@ -1,0 +1,11 @@
+ultralytics==8.4.162
+ipywidgets
+scikit-learn
+matplotlib
+seaborn
+pandas
+numpy
+pillow
+opencv-python
+torch
+torchvision
