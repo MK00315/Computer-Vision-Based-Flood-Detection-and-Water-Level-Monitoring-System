@@ -33,9 +33,11 @@ Download **all four** files from [STURM on Zenodo](https://zenodo.org/records/14
 
 The Gradio demo needs only the saved classifier checkpoint; the dataset is not required for inference. The scene folder is optional because the interface accepts uploads. Do not use the STURM crop set as a full-scene YOLO training set.
 
-## 3. Checkpoint availability
+## 3. Checkpoint and training-history availability
 
-The evaluated checkpoint is not bundled or hosted in this repository. The project owner/evaluator must provide the saved `.pth` file and matching training history through an approved channel. Only load a checkpoint you trust; the original experiment's loader uses PyTorch serialization with `weights_only=False`.
+The evaluated checkpoint is not bundled or hosted in this repository. To use the exact model from the published experiment, obtain `resnet50_sturm_best_macro_f1.pth` from the project owner through an approved channel and place it in `MyDrive/CSE411_Flood_Project/task4_outputs/`. Only load a checkpoint you trust; the original experiment's loader uses PyTorch serialization with `weights_only=False`.
+
+The matching training history from that experiment is already included as [training_history.csv](../results/classifier/training_history.csv); it does not need to be shared separately. For the evaluation notebook, download this CSV, rename it to `resnet50_macro_f1_training_history.csv`, and upload it to the same `task4_outputs/` folder shown above. Alternatively, keep its filename and update `TRAINING_HISTORY_PATH` to its actual Drive path. The Gradio demo needs the checkpoint only, not the training-history CSV.
 
 If that checkpoint is unavailable, run `classifier_training.ipynb`. It writes a new checkpoint and history in `classifier_reproduction_outputs/`, preserving the earlier experiment. Point both `CHECKPOINT_PATH` and `TRAINING_HISTORY_PATH` in the evaluation notebook to that same new training run. For the demo, update `CHECKPOINT_PATH` only. Do not combine a new checkpoint with an older history file.
 
