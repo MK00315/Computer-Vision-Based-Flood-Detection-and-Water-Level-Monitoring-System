@@ -1,0 +1,10 @@
+{
+  "test_images": 340,
+  "accuracy": 0.7470588235294118,
+  "macro_precision": 0.7538818404700758,
+  "macro_recall": 0.7625614552605703,
+  "macro_f1": 0.7572906366824338,
+  "checkpoint_best_epoch": 5,
+  "checkpoint_best_val_macro_f1": 0.7686273728543964,
+  "evaluation_scope": "Labelled STURM official test crops; not full-scene pipeline accuracy."
+}
